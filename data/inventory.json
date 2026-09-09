@@ -1,0 +1,44 @@
+[
+  {
+    "id": "MP01",
+    "name": "Queso",
+    "unit": "kg",
+    "stock": 2,
+    "minimum": 8
+  },
+  {
+    "id": "MP02",
+    "name": "Harina",
+    "unit": "kg",
+    "stock": 12,
+    "minimum": 10
+  },
+  {
+    "id": "MP03",
+    "name": "Carne",
+    "unit": "kg",
+    "stock": 3,
+    "minimum": 9
+  },
+  {
+    "id": "MP04",
+    "name": "Aceite",
+    "unit": "L",
+    "stock": 5,
+    "minimum": 5
+  },
+  {
+    "id": "MP05",
+    "name": "Pan",
+    "unit": "unidades",
+    "stock": 20,
+    "minimum": 50
+  },
+  {
+    "id": "MP06",
+    "name": "Salsa",
+    "unit": "L",
+    "stock": 2,
+    "minimum": null
+  }
+]

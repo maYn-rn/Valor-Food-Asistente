@@ -1,0 +1,50 @@
+[
+  {
+    "id": "V01",
+    "date": "2026-01-15",
+    "total": 750000,
+    "status": "paid"
+  },
+  {
+    "id": "V02",
+    "date": "2026-02-15",
+    "total": 900000,
+    "status": "paid"
+  },
+  {
+    "id": "V03",
+    "date": "2026-03-10",
+    "total": 700000,
+    "status": "paid"
+  },
+  {
+    "id": "V04",
+    "date": "2026-03-25",
+    "total": 450000,
+    "status": "paid"
+  },
+  {
+    "id": "V05",
+    "date": "2026-04-15",
+    "total": 1000000,
+    "status": "paid"
+  },
+  {
+    "id": "V06",
+    "date": "2026-05-15",
+    "total": 850000,
+    "status": "paid"
+  },
+  {
+    "id": "V07",
+    "date": "2026-06-15",
+    "total": 950000,
+    "status": "paid"
+  },
+  {
+    "id": "V08",
+    "date": "2026-02-20",
+    "total": 9999999,
+    "status": "cancelled"
+  }
+]

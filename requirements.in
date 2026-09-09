@@ -1,0 +1,11 @@
+streamlit
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+langchain-text-splitters
+faiss-cpu
+python-dotenv
+pytest
+sentence-transformers
+ddgs

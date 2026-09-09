@@ -1,0 +1,26 @@
+[
+  {
+    "id": "VF-STOCK",
+    "type": "internal",
+    "title": "Valor Food — Rutas para consultar stock",
+    "source": "Información proporcionada por Matías Medina en esta conversación",
+    "date": "2026-09-09",
+    "text": "Para ver el stock crítico existen dos rutas en Valor Food. Desde el inicio, en el lado derecho, se encuentra el apartado Alertas de Stock. También se puede entrar en la sección Materia prima y utilizar filtros de stock bajo y stock crítico. Desde esa sección se puede generar un PDF con el stock por comprar. Las alertas muestran la materia prima en stock crítico, su stock mínimo y su stock actual. Esta documentación describe funciones existentes del ERP, no pantallas del prototipo independiente."
+  },
+  {
+    "id": "VF-DEMO",
+    "type": "internal",
+    "title": "Reglas del prototipo académico",
+    "source": "Especificación del prototipo; no constituye política de Crispy House",
+    "date": "2026-09-09",
+    "text": "El prototipo utiliza inventario y ventas simulados. Para reponer hasta el mínimo calcula el máximo entre cero y mínimo menos stock actual. Si falta el mínimo, informa que no puede calcularlo. No predice el consumo semanal y no considera pedidos de compra pendientes. Compara facturación bruta registrada en pesos chilenos y solo incluye ventas con estado paid. No calcula utilidad ni aplica devoluciones parciales. Solo hay datos de enero a junio de 2026: los meses sin registros no se consideran meses con ventas cero."
+  },
+  {
+    "id": "OMS-5",
+    "type": "external",
+    "title": "OMS — Cinco claves para alimentos más seguros",
+    "source": "https://www.who.int/publications/i/item/9789241594639",
+    "date": "2006-05-15",
+    "text": "Resumen propio en español de la sección Overview de la OMS: las cinco orientaciones son mantener la limpieza, separar los alimentos crudos de los cocinados, cocinar completamente, conservar los alimentos a temperaturas seguras y utilizar agua y materias primas seguras. Es una orientación general para consultas sobre manejo de materias primas. Esta fuente no especifica aquí cantidades de compra, precios, proveedores ni políticas de Valor Food. Consulta de la página realizada el 9 de septiembre de 2026."
+  }
+]

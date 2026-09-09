@@ -1,0 +1,30 @@
+Valor Food Asistente 0.2 — verificación inicial de la versión Python
+
+Entorno: Python 3.12.14. Versiones directas fijadas en requirements.txt.
+python -m pytest -q: 13 pruebas aprobadas, 0 fallidas.
+python -m compileall -q src app.py create_vector_index.py evaluate.py: correcto.
+
+Verificado:
+- Reposición no negativa y mínimo ausente.
+- Facturación y exclusión de cancelaciones.
+- Fragmentos con metadatos de fuentes internas y externas.
+- FAISS real: creación, persistencia, búsqueda, filtro y umbral.
+- Comprobación de modelo, corpus e integridad del índice.
+- Validación de herramientas y prompts zero-shot/few-shot.
+- Ciclo del agente con modelo simulado, fallos y límite de pasos.
+- Interfaz Streamlit con AppTest: carga de pestañas y tablas sin clave,
+  y validación de formulario vacío. No es una prueba de navegador real.
+
+Las pruebas FAISS utilizan embeddings sintéticos por temas, solo dentro de tests.
+La prueba del ciclo de herramientas utiliza un modelo simulado.
+NO se ha llamado una API real de OpenAI o Groq ni se han generado embeddings reales.
+NO hay resultados de fidelidad, calidad semántica ni comparación real de prompts.
+NO se ha ejecutado evaluate.py --live: requiere configuración del estudiante.
+NO se ha probado visualmente en un navegador ni en Windows.
+
+Advertencia de dependencia observada: langchain-community emite un aviso sobre
+su mantenimiento. La integración FAISS seleccionada funciona con las versiones
+fijadas y corresponde al enfoque de los ejemplos revisados del docente.
+
+Pendiente: configurar .env, crear el índice con embeddings reales, ejecutar
+consultas y completar docs/pruebas.md. Conservar aciertos y errores reales.

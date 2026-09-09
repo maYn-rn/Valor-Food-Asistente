@@ -1,0 +1,12 @@
+# Versiones directas verificadas con Python 3.12
+streamlit==1.63.0
+langchain-core==1.6.2
+langchain-community==0.4.2
+langchain-openai==1.6.1
+langchain-groq==1.1.3
+langchain-text-splitters==1.1.2
+faiss-cpu==1.15.0
+python-dotenv==1.2.3
+pytest==9.1.1
+sentence-transformers
+ddgs==9.16.0
