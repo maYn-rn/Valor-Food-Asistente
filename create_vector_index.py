@@ -5,7 +5,7 @@ def main():
     load_settings()
     try:
         retriever = Retriever.build(get_embeddings(), model=embedding_signature())
-        print(f'Índice FAISS creado: {retriever.store.index.ntotal} fragmentos en {INDEX}.')
+        print(f'Índice FAISS creado: {retriever.index.ntotal} fragmentos en {INDEX}.')
     except ValueError as exc:
         raise SystemExit(str(exc))
     except Exception as exc:
